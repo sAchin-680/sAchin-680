@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm sAchin</h1>
 <h3 align="center">"Coding Dreams into Reality: The Chronicles of My Digital Odyssey".</h3>
 
-img align="right" alt="Coding" width="400" src="https://wallpapercave.com/dwp2x/wp3162607.gif"
+img align="right" alt="Coding" width="400" src="https://github.com/topics/gifs?o=desc&s=updated"
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sachin-680&label=Profile%20views&color=0e75b6&style=flat" alt="sachin-680" /> </p>
 
