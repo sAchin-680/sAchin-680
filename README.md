@@ -7,17 +7,17 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sachin-680" alt="sachin-680" /></a> </p>
 
-- 🔭 I’m currently working on **Bridging Full Stack Mastery and Machine Learning Ingenuity**
+- 🔭 I’m currently working on **Bridging Full Stack Mastery and Machine Learning Ingenuity.**
 
-- 🌱 I’m currently learning **Full Stack Development**
+- 🌱 I’m currently learning **Full Stack Development.**
 
-- 👯 I’m looking to collaborate on **Github**
+- 👯 I’m looking to collaborate on **Github.**
 
-- 🤝 I’m looking for help with **Machine Learning**
+- 🤝 I’m looking for help with **Machine Learning.**
 
-- 💬 Ask me about **Data Structures and Algorithms**
+- 💬 Ask me about **Data Structures and Algorithms.**
 
-- 📫 How to reach me **l__mr.mister__l**
+- 📫 How to reach me **ig: l__mr.mister__l**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
