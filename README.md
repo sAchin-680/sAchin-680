@@ -17,7 +17,7 @@
 
 - 💬 Ask me about **Data Structures and Algorithms.**
 
-- 📫 How to reach me **ig: l__mr.mister__l**
+- 📫 How to reach me **ig: __mr.mister**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
