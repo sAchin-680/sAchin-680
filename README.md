@@ -58,8 +58,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=sachin-680&show_icons=true&theme=default" alt="GitHub Stats" />
   <br/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sachin-680&layout=compact&theme=default" alt="Top Languages" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sachin-680&theme=default" alt="GitHub Streak" />
 </p>
 
 ---
