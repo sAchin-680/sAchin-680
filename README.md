@@ -1,13 +1,76 @@
-<h1 align="center">Hi !! I'm sAchin</h1>
+<h1 align="center">Hi, I'm Sachin 👋</h1>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/sachinindwar/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/sachinindwar/" height="30" width="40" /></a>
-<a href="https://x.com/_sAchin63" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="_sAchin63" height="30" width="40" /></a>
+<p align="center">
+  <strong>Backend & Infrastructure Engineer (in progress)</strong><br/>
+  <em>Open Source Contributor @ CNCF • Jaeger • OpenTelemetry • Kubernetes</em>
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=sachin-680&show_icons=true&locale=en&layout=compact" alt="sachin-680" /></p>
+<p align="center">
+  I build high-performance backend systems, contribute to distributed infrastructure, and solve real-world problems in observability, tracing, and cloud-native tech.
+</p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sachin-680&show_icons=true&locale=en" alt="sachin-680" /></p>
+---
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sachin-680&" alt="sachin-680" /></p>
+## 🚀 What I’m Currently Working On
+
+- **Jaeger Tracing**: Improving service performance analytics, test infrastructure, and adaptive sampling  
+- **OpenTelemetry**: Fixing bugs and improving OTEL Collector compatibility  
+- **Kubernetes**: Contributing to SIG Node, SIG API Machinery, and improving CLI ergonomics  
+
+---
+
+## 🧰 Tech Toolbox
+
+**Languages**: Go (primary), Python, TypeScript, Rust (learning)  
+**Infra/Observability**: Kubernetes, Docker, Prometheus, OpenTelemetry, Grafana  
+**Datastores**: Elasticsearch, PostgreSQL, Redis  
+**Dev Tools**: GitHub Actions, gRPC, NATS, Jaeger  
+
+---
+
+## 🌟 Open Source Highlights
+
+### 🔍 [Jaeger - CNCF Distributed Tracing](https://github.com/jaegertracing/jaeger)
+- Migrating Zipkin model to OpenTelemetry  
+- Improving flaky test detection & storage integration tests  
+- Upgrading internal tooling (e.g. `golangci-lint`)  
+
+### 📡 [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
+- Fixing enhancement issues & contributing to core collector features  
+
+### ☸️ [Kubernetes](https://github.com/kubernetes/kubernetes)
+- Contributing to SIG Node, SIG Testing, and improving CLI experience  
+
+---
+
+## 🛠️ Flagship Projects (In Progress)
+
+> Real tools showcasing my backend & observability skills.
+
+- **`tracelytics`** — Minimal observability dashboard powered by OpenTelemetry  
+- **`flaky-finder`** — GitHub Action to detect and isolate flaky Go tests from CI history  
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sachin-680&show_icons=true&theme=default" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sachin-680&layout=compact&theme=default" alt="Top Languages" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sachin-680&theme=default" alt="GitHub Streak" />
+</p>
+
+---
+
+## 📬 Let’s Connect
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/sachinindwar/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&style=for-the-badge" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/_sAchin63" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&style=for-the-badge" alt="Twitter" />
+  </a>
+</p>
