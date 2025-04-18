@@ -38,12 +38,12 @@
 ###  [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
 - Fixing enhancement issues & contributing to core collector features  
 
-### ☸ [Kubernetes](https://github.com/kubernetes/kubernetes)
+###  [Kubernetes](https://github.com/kubernetes/kubernetes)
 - Contributing to SIG Node, SIG Testing, and improving CLI experience  
 
 ---
 
-## 🛠 Flagship Projects (In Progress)
+##  Flagship Projects (In Progress)
 
 > Real tools showcasing my backend & observability skills.
 
