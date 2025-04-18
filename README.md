@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 What I’m Currently Working On
+##  What I’m Currently Working On
 
 - **Jaeger Tracing**: Improving service performance analytics, test infrastructure, and adaptive sampling  
 - **OpenTelemetry**: Fixing bugs and improving OTEL Collector compatibility  
@@ -19,7 +19,7 @@
 
 ---
 
-## 🧰 Tech Toolbox
+##  Tech Toolbox
 
 **Languages**: Go (primary), Python, TypeScript, Rust (learning)  
 **Infra/Observability**: Kubernetes, Docker, Prometheus, OpenTelemetry, Grafana  
@@ -28,22 +28,22 @@
 
 ---
 
-## 🌟 Open Source Highlights
+##  Open Source Highlights
 
-### 🔍 [Jaeger - CNCF Distributed Tracing](https://github.com/jaegertracing/jaeger)
+###  [Jaeger - CNCF Distributed Tracing](https://github.com/jaegertracing/jaeger)
 - Migrating Zipkin model to OpenTelemetry  
 - Improving flaky test detection & storage integration tests  
 - Upgrading internal tooling (e.g. `golangci-lint`)  
 
-### 📡 [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
+###  [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)
 - Fixing enhancement issues & contributing to core collector features  
 
-### ☸️ [Kubernetes](https://github.com/kubernetes/kubernetes)
+### ☸ [Kubernetes](https://github.com/kubernetes/kubernetes)
 - Contributing to SIG Node, SIG Testing, and improving CLI experience  
 
 ---
 
-## 🛠️ Flagship Projects (In Progress)
+## 🛠 Flagship Projects (In Progress)
 
 > Real tools showcasing my backend & observability skills.
 
@@ -52,7 +52,7 @@
 
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=sachin-680&show_icons=true&theme=default" alt="GitHub Stats" />
