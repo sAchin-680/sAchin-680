@@ -2,8 +2,16 @@
 
 <p align="center">
   <strong>Backend & Infrastructure Engineer (in progress)</strong><br/>
-  <em>Open Source Contributor @ CNCF • Jaeger • OpenTelemetry • Kubernetes</em>
+  <em>
+    Open Source Contributor @ 
+    <a href="https://github.com/cncf" target="_blank">CNCF</a> • 
+    <a href="https://github.com/kubernetes/kubernetes" target="_blank">Kubernetes</a> • 
+    <a href="https://github.com/pulumi/pulumi" target="_blank">Pulumi</a> • 
+    <a href="https://github.com/hashicorp/terraform" target="_blank">HashiCorp/Terraform</a> • 
+    <a href="https://github.com/jaegertracing/jaeger" target="_blank">Jaeger</a>
+  </em>
 </p>
+
 
 <p align="center">
   I build high-performance backend systems, contribute to distributed infrastructure, and solve real-world problems in observability, tracing, and cloud-native tech.
@@ -43,18 +51,26 @@
 
 ---
 
-##  GitHub Stats
+## 📊 GitHub Stats
 
-<a href="https://x.com/_sAchin63">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show_icons=true" />
-</a>
-<a href="https://x.com/_sAchin63">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&hide=html" />
-</a>
+<div align="center">
 
----
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&bg_color=00000000" alt="Sachin's GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&layout=compact&bg_color=00000000" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
 
-### 📬 Let’s Connect
+</div>
+
+
+
+## 📬 Let’s Connect
 
 <p align="left">
   <a href="https://www.linkedin.com/in/sachinindwar/" target="_blank">
