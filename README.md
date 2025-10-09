@@ -52,8 +52,6 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&hide=html,ruby" />
 </a>
 
----
-
 ## 📬 Let’s Connect
 
 <p align="left">
