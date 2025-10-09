@@ -45,14 +45,16 @@
 
 ##  GitHub Stats
 
-<a href="https://twitter.com/dims/">
+<a href="https://x.com/_sAchin63">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show_icons=true" />
 </a>
-<a href="https://twitter.com/dims/">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&hide=html,ruby" />
+<a href="https://x.com/_sAchin63">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&hide=html" />
 </a>
 
-## 📬 Let’s Connect
+---
+
+### 📬 Let’s Connect
 
 <p align="left">
   <a href="https://www.linkedin.com/in/sachinindwar/" target="_blank">
