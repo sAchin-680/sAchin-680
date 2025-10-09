@@ -43,23 +43,14 @@
 
 ---
 
-##  Flagship Projects (In Progress)
-
-> Real tools showcasing my backend & observability skills.
-
-- **`tracelytics`** — Minimal observability dashboard powered by OpenTelemetry  
-- **`flaky-finder`** — GitHub Action to detect and isolate flaky Go tests from CI history  
-
----
-
 ##  GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sachin-680&show_icons=true&theme=default" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sachin-680&layout=compact&theme=default" alt="Top Languages" />
-</p>
-
+<a href="https://twitter.com/dims/">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show_icons=true" />
+</a>
+<a href="https://twitter.com/dims/">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&hide=html,ruby" />
+</a>
 ---
 
 ## 📬 Let’s Connect
