@@ -1,13 +1,13 @@
 <h1 align="center">Hi, I'm Sachin 👋</h1>
 
 <p align="center">
-  <strong>Backend & Infrastructure Engineer (in progress)</strong><br/>
+  <strong>Backend & Infrastructure Engineer</strong><br/>
   <em>
     Open Source Contributor @ 
     <a href="https://github.com/cncf" target="_blank">CNCF</a> • 
     <a href="https://github.com/kubernetes/kubernetes" target="_blank">Kubernetes</a> • 
     <a href="https://github.com/pulumi/pulumi" target="_blank">Pulumi</a> • 
-    <a href="https://github.com/hashicorp/terraform" target="_blank">HashiCorp/Terraform</a> • 
+    <a href="https://github.com/hashicorp/terraform" target="_blank">Terraform</a> • 
     <a href="https://github.com/jaegertracing/jaeger" target="_blank">Jaeger</a>
   </em>
 </p>
@@ -58,7 +58,7 @@
   <table>
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&show_icons=true&bg_color=00000000" alt="Sachin's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show=reviews,prs_merged,&show_icons=true&bg_color=00000000" alt="Sachin's GitHub Stats" />
       </td>
       <td>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&layout=compact&bg_color=00000000" alt="Top Languages" />
