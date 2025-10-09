@@ -43,17 +43,20 @@
 
 ---
 
-##  GitHub Stats
+## GitHub Stats
 
-<a href="https://twitter.com/dims/">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show_icons=true" />
+<a href="https://github.com/sAchin-680">
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show_icons=true&hide_title=true&theme=default" />
 </a>
-<a href="https://twitter.com/dims/">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&hide=html,ruby" />
+<a href="https://github.com/sAchin-680">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&hide=html,ruby&layout=compact&theme=default" />
 </a>
+
+<br clear="all" />
+
 ---
 
-## 📬 Let’s Connect
+## Let’s Connect
 
 <p align="left">
   <a href="https://www.linkedin.com/in/sachinindwar/" target="_blank">
@@ -62,4 +65,5 @@
   <a href="https://x.com/_sAchin63" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&style=for-the-badge" alt="Twitter" />
   </a>
+
 </p>
