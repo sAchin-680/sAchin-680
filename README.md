@@ -23,21 +23,21 @@
 
 ## Current Focus
 
-- **Jaeger Tracing** → Improving pipeline efficiency & adaptive sampling for distributed tracing  
-- **OpenTelemetry** → Enhancing collector interoperability and observability metrics  
-- **Kubernetes** → SIG Node & SIG API Machinery contributions, focusing on performance & tooling  
+<!-- - **Jaeger Tracing** → Improving pipeline efficiency & adaptive sampling for distributed tracing  -->
+- **Kubernetes** → SIG Node & SIG API Machinery contributions, focusing on performance & tooling.
+- **OpenTelemetry** → Enhancing collector interoperability and observability metrics.  
 
 ---
 
 
 ## Tech & Tools Expertise
 
-- **Languages**: Go (primary), Python, JavaScript
+- **Languages**: Go (primary), Python, JavaScript, Rust(learning)
 - **Web Development**: React.js, Next.js, Node.js, Express.js
 - **Backend**: RESTful APIs, JWT, Redis, Kafka
 - **Databases**: MySQL, SQL, MongoDB, GraphQL
 - **DevOps**: Docker, Kubernetes, CI/CD
-- **Cloud**: AWS (S3 | EC2 | RDS)
+- **Cloud**: AWS (S3 | EC2 | RDS | Lambda)
 - **Monitoring**: Prometheus, Grafana, Loki
 
 ---
