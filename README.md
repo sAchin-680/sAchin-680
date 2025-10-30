@@ -73,9 +73,15 @@
   </table>
 </div>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=sAchin-680&theme=dark&hide_border=true&background=00000000" alt="GitHub Streak" />
-</p>
+
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sAchin-680&currStreakNum=2FD3EB&fire=pink&sideLabels=F00&date_format=M%20j%2C%20Y&hide_border=true&bg_color=00000000" alt="GitHub Streak" />
+  </a>
+</div>
+
+
+
 
 ---
 
