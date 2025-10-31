@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Hi+there!+I'm+Sachin;Backend+%26+Infrastructure+Engineer;Open+Source+Contributor+@+CNCF;Building+Reliable+%26+Observable+Systems&center=true&width=750&height=50" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Hi+there!+I'm+Sachin;Building+Reliable+%26+Observable+Systems&center=true&width=750&height=50" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -19,14 +19,14 @@
 </p>
 
 
----
 
+<!--
 ## Current Focus
 
-<!-- - **Jaeger Tracing** → Improving pipeline efficiency & adaptive sampling for distributed tracing  -->
+<!-- - **Jaeger Tracing** → Improving pipeline efficiency & adaptive sampling for distributed tracing  
 - **Kubernetes** → SIG Node & SIG API Machinery contributions, focusing on performance & tooling.
 - **OpenTelemetry** → Enhancing collector interoperability and observability metrics.  
-
+-->
 ---
 
 
@@ -41,7 +41,7 @@
 - **Monitoring**: Prometheus, Grafana, Loki
 
 ---
-
+<!--
 ## Open Source Highlights
 
 ### Jaeger - CNCF Distributed Tracing
@@ -56,7 +56,7 @@
 ### Kubernetes
 - SIG Node / SIG API Machinery contributor  
 - Enhancing CLI ergonomics and developer workflows  
-
+-->
 
 ## GitHub Insights
 
@@ -92,7 +92,7 @@
 
 </div>
   <div align="center">
-    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=l__mr.mister__l&theme=dark" alt="Codeforces Stats" />
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=l__mr.mister__l&theme=dark&bg_color=000000" alt="Codeforces Stats" />
 </div>
 
 
