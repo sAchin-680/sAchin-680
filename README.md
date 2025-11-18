@@ -9,8 +9,8 @@
     <a href="https://github.com/cncf" target="_blank" style="text-decoration: none; color: #007bff;">CNCF</a> • 
     <a href="https://github.com/kubernetes/kubernetes" target="_blank" style="text-decoration: none; color: #007bff;">Kubernetes</a> • 
     <a href="https://github.com/pulumi/pulumi" target="_blank" style="text-decoration: none; color: #007bff;">Pulumi</a> • 
-    <a href="https://github.com/hashicorp/terraform" target="_blank" style="text-decoration: none; color: #007bff;">Terraform</a>  
-    <!-- • <a href="https://github.com/jaegertracing/jaeger" target="_blank" style="text-decoration: none; color: #007bff;">Jaeger</a> -->
+    <a href="https://github.com/open-telemetry/opentelemetry-collector" target="_blank" style="text-decoration: none; color: #007bff;">OpenTelemetry Collector</a>  
+    • <a href="https://github.com/aws/aws-cdk" target="_blank" style="text-decoration: none; color: #007bff;">AWS-CDK</a>
   </em>
 </p>
 
