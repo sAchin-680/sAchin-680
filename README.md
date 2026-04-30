@@ -54,5 +54,3 @@ Active OSS contributor: [Kubernetes](https://github.com/kubernetes/kubernetes) Â
 ![Profile Views](https://komarev.com/ghpvc/?username=sAchin-680&style=flat-square&color=grey&label=Profile+Views)
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient&section=footer" width="100%"/>
