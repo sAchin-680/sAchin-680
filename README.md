@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&fontAlign=80&fontAlignY=40&color=gradient" width="100%"/>
 <div align=center>
 
-# Sachin Indwar
+# SACHIN INDWAR
 
 </div>
 
