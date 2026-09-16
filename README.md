@@ -39,24 +39,9 @@ tooling, observability collectors, and dashboards.
 ## GitHub activity
 
 <div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-dark.svg" />
-  <img height="165" alt="GitHub stats" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-light.svg" />
-</picture>
-&nbsp;&nbsp;
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-dark.svg" />
-  <img height="165" alt="Top languages" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-light.svg" />
-</picture>
-
-<br />
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-dark.svg" />
-  <img alt="GitHub streak" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-light.svg" />
-</picture>
-
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-dark.svg" /><img height="150" alt="GitHub stats" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-light.svg" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-dark.svg" /><img height="150" alt="Top languages" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-light.svg" /></picture>
+  <br /><br />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-dark.svg" /><img alt="GitHub streak" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-light.svg" /></picture>
 </div>
 
 ---
