@@ -65,7 +65,7 @@ jobs:
       - name: Stats card
         id: stats
         continue-on-error: true
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: stats
           options: username=sAchin-680&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&rank_icon=github&bg_color=00000000&title_color=${{ matrix.title }}&text_color=${{ matrix.text }}&icon_color=${{ matrix.icon }}
@@ -75,7 +75,7 @@ jobs:
       - name: Top languages card
         id: langs
         continue-on-error: true
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=sAchin-680&layout=compact&langs_count=6&hide_border=true&hide_title=true&bg_color=00000000&title_color=${{ matrix.title }}&text_color=${{ matrix.text }}
@@ -116,7 +116,7 @@ jobs:
           done
 
       - name: Upload validated cards
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: cards-${{ matrix.theme }}
           path: out/*.svg
@@ -132,11 +132,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Download validated cards
         continue-on-error: true
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: cards-*
           merge-multiple: true
