@@ -48,7 +48,19 @@ jobs:
 
     steps:
       - name: Prepare workspace
-        run: mkdir -p tmp out
+        env:
+          TOKEN: ${{ secrets.README_STATS_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p tmp out
+          if [[ -z "${TOKEN}" ]]; then
+            echo "::error title=README_STATS_TOKEN is not set::The stats card reads stargazers across all your repos, which the default GITHUB_TOKEN may not do (GraphQL FORBIDDEN). Add a classic PAT with read:user + public_repo under Settings → Secrets and variables → Actions."
+            {
+              echo "### ⚠️ README_STATS_TOKEN is not set"
+              echo "The stats card will be dropped by validation until this secret exists."
+              echo "Streak and top-languages cards do not need it and will still publish."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Stats card
         id: stats
@@ -90,8 +102,16 @@ jobs:
               cp "$f" out/
               echo "- ✅ ${card}" >> "$GITHUB_STEP_SUMMARY"
             else
-              echo "::warning title=Card skipped::${card} (${{ matrix.theme }}) invalid; keeping last good version"
-              echo "- ⚠️ ${card} kept previous version" >> "$GITHUB_STEP_SUMMARY"
+              if [[ ! -s "$f" ]]; then
+                reason="file missing or empty"
+              elif ! grep -q "<svg" "$f"; then
+                reason="not an SVG"
+              else
+                reason=$(grep -oiE "something went wrong[^<]*|rate limit[^<]*|could not (fetch|find)[^<]*" "$f" | head -1)
+                reason="${reason:-error card}"
+              fi
+              echo "::warning title=Card skipped::${card} (${{ matrix.theme }}) rejected: ${reason}; keeping last good version"
+              echo "- ⚠️ ${card} kept previous version — ${reason}" >> "$GITHUB_STEP_SUMMARY"
             fi
           done
 
