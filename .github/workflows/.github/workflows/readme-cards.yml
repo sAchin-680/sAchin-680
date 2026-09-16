@@ -1,0 +1,159 @@
+name: README cards
+
+on:
+  schedule:
+    - cron: "30 0 * * *"        # daily, 06:00 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/readme-cards.yml"]
+
+permissions: {}                 # deny by default; jobs opt in
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: false     # never interrupt a publish
+
+jobs:
+  generate:
+    name: Generate (${{ matrix.theme }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - theme: dark
+            title: ffffff
+            text: "666666"
+            icon: ffffff
+            stroke: "333333"
+            ring: ffffff
+            num: ffffff
+            side_label: "666666"
+            side_num: aaaaaa
+            dates: "444444"
+          - theme: light
+            title: 1f2328
+            text: 57606a
+            icon: 1f2328
+            stroke: d0d7de
+            ring: 1f2328
+            num: 1f2328
+            side_label: 57606a
+            side_num: 424a53
+            dates: 8c959f
+
+    steps:
+      - name: Prepare workspace
+        run: mkdir -p tmp out
+
+      - name: Stats card
+        id: stats
+        continue-on-error: true
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=sAchin-680&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&rank_icon=github&bg_color=00000000&title_color=${{ matrix.title }}&text_color=${{ matrix.text }}&icon_color=${{ matrix.icon }}
+          path: tmp/stats-${{ matrix.theme }}.svg
+          token: ${{ secrets.README_STATS_TOKEN }}
+
+      - name: Top languages card
+        id: langs
+        continue-on-error: true
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=sAchin-680&layout=compact&langs_count=6&hide_border=true&hide_title=true&bg_color=00000000&title_color=${{ matrix.title }}&text_color=${{ matrix.text }}
+          path: tmp/top-langs-${{ matrix.theme }}.svg
+          token: ${{ secrets.README_STATS_TOKEN }}
+
+      - name: Streak card
+        id: streak
+        continue-on-error: true
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: user=sAchin-680&hide_border=true&disable_animations=true&background=00000000&stroke=${{ matrix.stroke }}&ring=${{ matrix.ring }}&fire=${{ matrix.ring }}&currStreakNum=${{ matrix.num }}&currStreakLabel=${{ matrix.num }}&sideNums=${{ matrix.side_num }}&sideLabels=${{ matrix.side_label }}&dates=${{ matrix.dates }}
+          path: tmp/streak-${{ matrix.theme }}.svg
+          token: ${{ secrets.README_STATS_TOKEN }}
+
+      - name: Validate cards
+        run: |
+          set -euo pipefail
+          echo "### Cards (${{ matrix.theme }})" >> "$GITHUB_STEP_SUMMARY"
+          for card in stats top-langs streak; do
+            f="tmp/${card}-${{ matrix.theme }}.svg"
+            if [[ -s "$f" ]] && grep -q "<svg" "$f" \
+               && ! grep -qiE "something went wrong|rate limit|could not (fetch|find)" "$f"; then
+              cp "$f" out/
+              echo "- ✅ ${card}" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "::warning title=Card skipped::${card} (${{ matrix.theme }}) invalid; keeping last good version"
+              echo "- ⚠️ ${card} kept previous version" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
+
+      - name: Upload validated cards
+        uses: actions/upload-artifact@v4
+        with:
+          name: cards-${{ matrix.theme }}
+          path: out/*.svg
+          if-no-files-found: ignore
+          retention-days: 1
+
+  publish:
+    name: Publish to output branch
+    needs: generate
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download validated cards
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: cards-*
+          merge-multiple: true
+          path: new
+
+      - name: Merge with last good cards and publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          mkdir -p site
+          old_tree=""
+          if git fetch --depth=1 origin output 2>/dev/null; then
+            git archive FETCH_HEAD | tar -x -C site
+            old_tree=$(git rev-parse 'FETCH_HEAD^{tree}')
+          fi
+
+          if compgen -G "new/*.svg" > /dev/null; then
+            cp -f new/*.svg site/
+          fi
+
+          cd site
+          if [[ -z "$(ls -A)" ]]; then
+            echo "::error::No cards generated and no previous version exists"
+            exit 1
+          fi
+
+          git init -q -b output
+          git add -A
+          if [[ "$(git write-tree)" == "$old_tree" ]]; then
+            echo "No changes; skipping push." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -qm "chore: update README cards"
+          git push -q --force "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" HEAD:output
+          echo "Published updated cards 🚀" >> "$GITHUB_STEP_SUMMARY"
