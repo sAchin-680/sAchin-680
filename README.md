@@ -27,21 +27,32 @@ tooling, observability collectors, and dashboards.
 
 ## Core skills
 
-| | |
-| --- | --- |
-| **Languages** | Go (primary), Python, C/C++, TypeScript |
-| **Orchestration & IaC** | Kubernetes, Docker, Helm, Terraform, ArgoCD, GitOps |
-| **Cloud & CI/CD** | AWS (EC2, EKS, S3, RDS, Lambda, IAM), GitHub Actions, OIDC federation |
-| **Observability** | OpenTelemetry, Prometheus, Grafana, Loki, Jaeger, Tempo |
-| **Systems & reliability** | eBPF (CO-RE, cilium/ebpf), Linux, tc/netem chaos testing, Raft, gRPC |
-| **Data & messaging** | PostgreSQL, MySQL, Redis, Kafka, bbolt |
+|                           |                                                                       |
+| ------------------------- | --------------------------------------------------------------------- |
+| **Languages**             | Go (primary), Python, C/C++, TypeScript                               |
+| **Orchestration & IaC**   | Kubernetes, Docker, Helm, Terraform, ArgoCD, GitOps                   |
+| **Cloud & CI/CD**         | AWS (EC2, EKS, S3, RDS, Lambda, IAM), GitHub Actions, OIDC federation |
+| **Observability**         | OpenTelemetry, Prometheus, Grafana, Loki, Jaeger, Tempo               |
+| **Systems & reliability** | eBPF (CO-RE, cilium/ebpf), Linux, tc/netem chaos testing, Raft, gRPC  |
+| **Data & messaging**      | PostgreSQL, MySQL, Redis, Kafka, bbolt                                |
 
 ## GitHub activity
 
 <div align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-dark.svg" /><img height="150" alt="GitHub stats" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-light.svg" /></picture>&nbsp;&nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-dark.svg" /><img height="150" alt="Top languages" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-light.svg" /></picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-dark.svg" />
+    <img height="150" alt="GitHub stats" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-light.svg" />
+  </picture>
+  &nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-dark.svg" />
+    <img height="150" alt="Top languages" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-light.svg" />
+  </picture>
   <br /><br />
-  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-dark.svg" /><img alt="GitHub streak" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-light.svg" /></picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-dark.svg" />
+    <img alt="GitHub streak" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-light.svg" />
+  </picture>
 </div>
 
 ---
