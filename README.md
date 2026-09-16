@@ -36,14 +36,24 @@ Active OSS contributor: [Grafana](https://github.com/grafana) · [Kubernetes](ht
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sAchin-680&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=666666&icon_color=ffffff&hide_title=true&rank_icon=github" />&nbsp;&nbsp;<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sAchin-680&layout=compact&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=666666&langs_count=6&hide_title=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-dark.svg" />
+  <img height="165" alt="GitHub stats" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/stats-light.svg" />
+</picture>&nbsp;&nbsp;<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-dark.svg" />
+  <img height="165" alt="Top languages" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/top-langs-light.svg" />
+</picture>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=sAchin-680&hide_border=true&background=00000000&stroke=333333&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=666666&dates=444444&currStreakNum=ffffff&sideNums=aaaaaa" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-dark.svg" />
+  <img alt="GitHub streak" src="https://raw.githubusercontent.com/sAchin-680/sAchin-680/output/streak-light.svg" />
+</picture>
 
 </div>
 
+---
 ---
 
 <div align="center">
