@@ -2,11 +2,10 @@ name: README cards
 
 on:
   schedule:
-    - cron: "30 0 * * *"        # daily, 06:00 IST
+    - cron: "*/5 * * * *"        # every 5 minutes; GitHub may delay scheduled runs
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/readme-cards.yml"]
 
 permissions: {}                 # deny by default; jobs opt in
 
