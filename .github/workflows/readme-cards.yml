@@ -84,7 +84,7 @@ jobs:
       - name: Streak card
         id: streak
         continue-on-error: true
-        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        uses: DenverCoder1/github-readme-streak-stats@v1.8.0
         with:
           options: user=sAchin-680&hide_border=true&disable_animations=true&background=00000000&stroke=${{ matrix.stroke }}&ring=${{ matrix.ring }}&fire=${{ matrix.ring }}&currStreakNum=${{ matrix.num }}&currStreakLabel=${{ matrix.num }}&sideNums=${{ matrix.side_num }}&sideLabels=${{ matrix.side_label }}&dates=${{ matrix.dates }}
           path: tmp/streak-${{ matrix.theme }}.svg
@@ -115,7 +115,7 @@ jobs:
           done
 
       - name: Upload validated cards
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: cards-${{ matrix.theme }}
           path: out/*.svg
@@ -131,11 +131,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Download validated cards
         continue-on-error: true
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: cards-*
           merge-multiple: true
