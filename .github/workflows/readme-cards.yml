@@ -67,7 +67,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=sAchin-680&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&rank_icon=github&bg_color=00000000&title_color=${{ matrix.title }}&text_color=${{ matrix.text }}&icon_color=${{ matrix.icon }}
+          options: username=sAchin-680&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&rank_icon=default&bg_color=00000000&title_color=${{ matrix.title }}&text_color=${{ matrix.text }}&icon_color=${{ matrix.icon }}
           path: tmp/stats-${{ matrix.theme }}.svg
           token: ${{ secrets.README_STATS_TOKEN }}
 
