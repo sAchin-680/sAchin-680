@@ -25,7 +25,7 @@ and most of my work goes upstream, where one fix reaches everyone who runs the t
 <!-- UPSTREAM-SUMMARY:START -->
 **35 pull requests merged across 4 projects:** [Podman Desktop](https://github.com/podman-desktop/podman-desktop/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (23) · [Grafana](https://github.com/grafana/grafana/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (7) · [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (3) · [AWS CDK](https://github.com/aws/aws-cdk/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (2)
 
-[See all merged](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests) · [19 more in review](https://github.com/search?q=is%3Apr+is%3Aopen+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests), including 5 in Kubernetes
+[See all merged](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests) · [20 more in review](https://github.com/search?q=is%3Apr+is%3Aopen+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests), including 6 in Kubernetes
 <!-- UPSTREAM-SUMMARY:END -->
 
 **Highlights**
