@@ -1,0 +1,40 @@
+name: Upstream activity
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"      # every 6 hours
+  workflow_dispatch:
+
+permissions: {}                 # deny by default; jobs opt in
+
+concurrency:
+  group: upstream
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Update README
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild upstream block
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/upstream.py README.md
+
+      - name: Commit if changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet README.md; then
+            echo "No changes." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -qm "chore: update upstream activity" README.md
+          git push -q
+          echo "README upstream block updated." >> "$GITHUB_STEP_SUMMARY"
