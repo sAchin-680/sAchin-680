@@ -7,7 +7,6 @@
 
 I build and fix the tools platform teams run: observability, containers, consensus.
 
-<!-- [![Portfolio](https://img.shields.io/badge/Portfolio-sachin--680.vercel.app-informational?style=flat-square&logo=vercel&logoColor=white)](https://sachin-680.vercel.app) -->
 [![Email](https://img.shields.io/badge/Email-mrmister680%40gmail.com-informational?style=flat-square&logo=gmail&logoColor=white)](mailto:mrmister680@gmail.com)
 
 </div>
