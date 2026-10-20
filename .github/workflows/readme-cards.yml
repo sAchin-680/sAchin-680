@@ -94,11 +94,13 @@ jobs:
         run: |
           set -euo pipefail
           echo "### Cards (${{ matrix.theme }})" >> "$GITHUB_STEP_SUMMARY"
+          accepted=0
           for card in stats top-langs streak; do
             f="tmp/${card}-${{ matrix.theme }}.svg"
             if [[ -s "$f" ]] && grep -q "<svg" "$f" \
                && ! grep -qiE "something went wrong|rate limit|could not (fetch|find)" "$f"; then
               cp "$f" out/
+              accepted=$((accepted + 1))
               echo "- ✅ ${card}" >> "$GITHUB_STEP_SUMMARY"
             else
               if [[ ! -s "$f" ]]; then
@@ -113,6 +115,13 @@ jobs:
               echo "- ⚠️ ${card} kept previous version — ${reason}" >> "$GITHUB_STEP_SUMMARY"
             fi
           done
+          # Every card failing at once is almost always an expired or revoked README_STATS_TOKEN.
+          # Fail the job so the run goes red and GitHub sends a notification; the publish job
+          # still runs and keeps the last good cards on the profile.
+          if (( accepted == 0 )); then
+            echo "::error title=No cards generated::All cards failed for ${{ matrix.theme }}. If the logs say 'Bad credentials', README_STATS_TOKEN has expired: create a new classic token (read:user, public_repo) and run: gh secret set README_STATS_TOKEN"
+            exit 1
+          fi
 
       - name: Upload validated cards
         uses: actions/upload-artifact@v4
