@@ -22,9 +22,9 @@ and most of my work goes upstream, where one fix reaches everyone who runs the t
 ## Upstream
 
 <!-- UPSTREAM-SUMMARY:START -->
-**39 pull requests merged across 4 projects:** [Podman Desktop](https://github.com/podman-desktop/podman-desktop/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (25) · [Grafana](https://github.com/grafana/grafana/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (9) · [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (3) · [AWS CDK](https://github.com/aws/aws-cdk/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (2)
+**40 pull requests merged across 5 projects:** [Podman Desktop](https://github.com/podman-desktop/podman-desktop/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (25) · [Grafana](https://github.com/grafana/grafana/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (9) · [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (3) · [AWS CDK](https://github.com/aws/aws-cdk/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (2) · [Kubernetes](https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (1)
 
-[See all merged](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests) · [16 more in review](https://github.com/search?q=is%3Apr+is%3Aopen+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests), including 6 in Kubernetes
+[See all merged](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests) · [15 more in review](https://github.com/search?q=is%3Apr+is%3Aopen+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests), including 5 in Kubernetes
 <!-- UPSTREAM-SUMMARY:END -->
 
 **Highlights**
@@ -36,9 +36,9 @@ and most of my work goes upstream, where one fix reaches everyone who runs the t
 <!-- UPSTREAM-RECENT:START -->
 **Recently merged**
 
+- **Kubernetes** — [test/e2e/node: use CUDA base image for GPU sanity test on amd64](https://github.com/kubernetes/kubernetes/pull/142802) · Oct 2026
 - **Grafana** — [TimeSeries: Fix stacked series not restacking when the data changes](https://github.com/grafana/grafana/pull/134791) · Oct 2026
 - **Grafana** — [PanelEditNext: Fix transformation editors ignoring the transformation's own filter](https://github.com/grafana/grafana/pull/131713) · Oct 2026
-- **Podman Desktop** — [chore(eslint): allow path references in the extension API entry file](https://github.com/podman-desktop/podman-desktop/pull/19653) · Oct 2026
 <!-- UPSTREAM-RECENT:END -->
 
 ## Things I've built
