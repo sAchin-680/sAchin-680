@@ -5,7 +5,7 @@
 
 <div align="center">
 
-I build and fix the tools platform teams run: observability, containers, consensus.
+I build and fix infrastructure software: databases, consensus, observability.
 
 [![Email](https://img.shields.io/badge/Email-mrmister680%40gmail.com-informational?style=flat-square&logo=gmail&logoColor=white)](mailto:mrmister680@gmail.com)
 
@@ -16,8 +16,9 @@ I build and fix the tools platform teams run: observability, containers, consens
 ## About me
 
 I like infrastructure that stays boring under pressure: systems that explain their own
-failures, recover without a human, and don't surprise the people on call. I mostly write Go,
-and most of my work goes upstream, where one fix reaches everyone who runs the tool.
+failures, recover without a human, and don't surprise the people on call. I want bugs
+reproducible from a seed, not caught by a lucky log line. I write Go and Rust, and most of my
+work goes upstream, where one fix reaches everyone who runs the tool.
 
 ## Upstream
 
@@ -48,14 +49,15 @@ and most of my work goes upstream, where one fix reaches everyone who runs the t
 
 ## Toolbox
 
-|                                |                                            |
-| ------------------------------ | ------------------------------------------ |
-| **Languages**                  | Go, Python, TypeScript                     |
-| **Containers & orchestration** | Kubernetes, Docker, Helm                   |
-| **Cloud, IaC & CI/CD**         | AWS, Terraform, GitHub Actions, ArgoCD     |
-| **Observability**              | OpenTelemetry, Prometheus, Grafana, Jaeger |
-| **Systems**                    | Linux, eBPF, gRPC                          |
-| **Data**                       | PostgreSQL, Redis, Kafka                   |
+|                                |                                                |
+| ------------------------------ | ---------------------------------------------- |
+| **Languages**                  | Go, Rust, Python, TypeScript                   |
+| **Data**                       | PostgreSQL, SQLite, Redis, Kafka               |
+| **Testing**                    | Deterministic simulation, differential testing |
+| **Systems**                    | Linux, eBPF, gRPC                              |
+| **Containers & orchestration** | Kubernetes, Docker, Helm                       |
+| **Cloud, IaC & CI/CD**         | AWS, Terraform, GitHub Actions, ArgoCD         |
+| **Observability**              | OpenTelemetry, Prometheus, Grafana, Jaeger     |
 
 ## GitHub activity
 
@@ -79,9 +81,6 @@ and most of my work goes upstream, where one fix reaches everyone who runs the t
 ---
 
 <div align="center">
-
-If you maintain something in this space and want a hand, or just want to talk about
-observability, distributed systems, or a gnarly bug, my inbox is open.
 
 ![Profile views](https://komarev.com/ghpvc/?username=sAchin-680&style=flat-square&color=grey&label=Profile+views)
 
