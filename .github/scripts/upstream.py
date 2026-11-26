@@ -34,6 +34,7 @@ NAMES = {
     "open-telemetry/opentelemetry-collector": "OpenTelemetry Collector",
     "podman-desktop/podman-desktop": "Podman Desktop",
     "temporalio/temporal": "Temporal",
+    "tursodatabase/turso": "Turso",
 }
 
 
