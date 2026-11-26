@@ -25,21 +25,20 @@ EXCLUDE_REPOS = {
 RECENT = 3
 BLOCKS = ("UPSTREAM-SUMMARY", "UPSTREAM-RECENT")
 
+# Display names that title-casing the repo name gets wrong. Any other repo is shown
+# as its title-cased name, e.g. "node-feature-discovery" -> "Node Feature Discovery".
 NAMES = {
     "aws/aws-cdk": "AWS CDK",
     "google/cadvisor": "cAdvisor",
-    "grafana/grafana": "Grafana",
     "kubernetes-sigs/kind": "kind",
-    "kubernetes/kubernetes": "Kubernetes",
     "open-telemetry/opentelemetry-collector": "OpenTelemetry Collector",
-    "podman-desktop/podman-desktop": "Podman Desktop",
-    "temporalio/temporal": "Temporal",
-    "tursodatabase/turso": "Turso",
 }
 
 
 def name(repo):
-    return NAMES.get(repo, repo.split("/")[1])
+    if repo in NAMES:
+        return NAMES[repo]
+    return " ".join(w.capitalize() for w in re.split(r"[-_.]", repo.split("/")[1]) if w)
 
 
 def search_url(state):
