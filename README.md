@@ -23,9 +23,9 @@ work goes upstream, where one fix reaches everyone who runs the tool.
 ## Upstream
 
 <!-- UPSTREAM-SUMMARY:START -->
-**41 pull requests merged across 6 projects:** [Podman Desktop](https://github.com/podman-desktop/podman-desktop/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (25) · [Grafana](https://github.com/grafana/grafana/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (9) · [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (3) · [AWS CDK](https://github.com/aws/aws-cdk/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (2) · [Kubernetes](https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (1) · [Turso](https://github.com/tursodatabase/turso/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (1)
+**42 pull requests merged across 6 projects:** [Podman Desktop](https://github.com/podman-desktop/podman-desktop/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (25) · [Grafana](https://github.com/grafana/grafana/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (9) · [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (3) · [AWS CDK](https://github.com/aws/aws-cdk/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (2) · [Turso](https://github.com/tursodatabase/turso/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (2) · [Kubernetes](https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+author%3AsAchin-680+is%3Amerged) (1)
 
-[See all merged](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests) · [19 more in review](https://github.com/search?q=is%3Apr+is%3Aopen+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests), including 7 in Kubernetes
+[See all merged](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests) · [18 more in review](https://github.com/search?q=is%3Apr+is%3Aopen+author%3AsAchin-680+-user%3Aobservax-io+-user%3Asachin-680+-repo%3Ahashicorp%2Fterraform-provider-aws+-repo%3Ajaegertracing%2Fjaeger+-repo%3Ajuspay%2Fhyperswitch-control-center&type=pullrequests), including 7 in Kubernetes
 <!-- UPSTREAM-SUMMARY:END -->
 
 **Highlights**
@@ -37,9 +37,9 @@ work goes upstream, where one fix reaches everyone who runs the tool.
 <!-- UPSTREAM-RECENT:START -->
 **Recently merged**
 
+- **Turso** — [core/mvcc: return busy from a contended explicit checkpoint](https://github.com/tursodatabase/turso/pull/12573) · Nov 2026
 - **Turso** — [bindings/c: ship the static library in releases](https://github.com/tursodatabase/turso/pull/12561) · Nov 2026
 - **Kubernetes** — [test/e2e/node: use CUDA base image for GPU sanity test on amd64](https://github.com/kubernetes/kubernetes/pull/142802) · Oct 2026
-- **Grafana** — [TimeSeries: Fix stacked series not restacking when the data changes](https://github.com/grafana/grafana/pull/134791) · Oct 2026
 <!-- UPSTREAM-RECENT:END -->
 
 ## Things I've built
